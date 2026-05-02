@@ -124,8 +124,11 @@ line-height: 100%;
 letter-spacing: -4.013px;
 opacity: 0.9;
 }
+.about-span{
+    color: var(--social-bg);
+}
 .accient-span{
-    color:var(--social-bg);
+    color:var(--accent-color);
 }
 .product-caption{
     color: var(--text-color);
@@ -197,4 +200,64 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+.order-list{
+width: 466.0px;
+height: 200.0px;
+}
+.order-title{
+color: var(--text-color);
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 94%;
+letter-spacing: -3.92px;
+opacity: 0.9;
+}
+.order-text{
+    color: var(--text-color);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+}
+.order-way{
+   color: var(--text-color);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+}
+.question-title{
+    align-self: stretch;
+color:var(--text-color);
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+
+}
+.question-label{
+width: 637.0px;
+height: 74.0px;
+padding: 29px 30px;
+display: flex;
+padding: 29px 30px;
+align-items: center;
+gap: 10px;
+position: absolute;
+border-radius: 100px;
+border: 1px solid #FFF;
+
+}
+.question-button{
 }
